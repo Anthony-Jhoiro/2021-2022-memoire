@@ -139,13 +139,34 @@ En reprenant le code de notre classe `Dockerfile` et en appliquant le principe d
 
 ```java
 class Dockerfile {  
-	public String addFrom(String content, String from) {  
+	public static String addFrom(String content, String from) {  
 		return content + "FROM " + from + "\n";  
 	}  
-	public String addCommand(String content, String command) {  
+	public static  String addCommand(String content, String command) {  
 		return content + "CMD " + command + "\n";  
 	}  
-	public String render(String content) {  
+	public static String render(String content) {  
+		return content;  
+	}
+}
+```
+
+Ou bien
+```java
+class Dockerfile {  
+	private String content;
+	
+	public Dockerfile(String content) {
+		this.content = content;
+	}
+	
+	public Dockerfile addFrom(String from) {  
+		return content + "FROM " + from + "\n";  
+	}  
+	public static  String addCommand(String content, String command) {  
+		return content + "CMD " + command + "\n";  
+	}  
+	public static String render(String content) {  
 		return content;  
 	}
 }
