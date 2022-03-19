@@ -1,0 +1,5 @@
+## Résumé
+
+Un composant / module / package est un ensemble d'éléments qui doit être isolé. Il ne doit avoir qu'une seule responsabilité ce qui signifie qu'il n'a qu'une raison de changer (ex: Un composant qui envoie des mails ne doit changer que si la façon d'envoyer des mails change). Chaque composant communique par des interfaces. Ces interfaces permettent d'inverser les dépendances ce qui signifie qu'un composant ne dépend pas directement d'un autre composant pour exister.
+
+L'utilisation des interfaces peut paraître fortement attachée à la programmation orientée objet mais il existe des équivalents aux interfaces dans des langages utilisant d'autres paradigmes. On peut par exemple considérer les fichiers `.h ` en C comme des interfaces car ces fichiers ne font que définir des signatures de fonctions. Les fonctions les utilisant sont donc indépendante des fonctions les implémentant.
