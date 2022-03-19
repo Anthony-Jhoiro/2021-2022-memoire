@@ -112,7 +112,7 @@ Le gars est salé quand même :
 ## Résumé
 #TODO Trouver le vrai nom de l'auteur
 
-L'objectif de l'article de <ins>Qntm</ins> est très clair dès son titre. L'auteur tente de démontrer les éléments de Clean Architecture ([[Cours/M1/S2/Mémoire/Bibliographie/Clean Architecture Martin]]) ne concordant pas à sa vision d'une bonne architecture de code. 
+L'objectif de l'article de <ins>Qntm</ins> est très clair dès son titre. L'auteur tente de démontrer les éléments de Clean Architecture ([[Bibliographie/Clean Architecture Martin]]) ne concordant pas à sa vision d'une bonne architecture de code. 
 
 ### Les fonctions
 Pour commencer il est sujet des fonctions. Les deux auteurs concordent sur des points universels comme les règles de nommage, la nécessité d'écrire autant que possible des fonctions ne faisant q'une seule chose chacune, éviter de modifier les les paramètres au profit de retourner une valeur et la différence entre les fonction de type **Query** qui demande demandent et les fonction de type **Answer** qui répondent au query.
