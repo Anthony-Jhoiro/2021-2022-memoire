@@ -151,22 +151,22 @@ class Dockerfile {
 }
 ```
 
-Ou bien
+Ou bien en gardant une approche objet
 ```java
 class Dockerfile {  
-	private String content;
+	private final String content;
 	
 	public Dockerfile(String content) {
 		this.content = content;
 	}
 	
 	public Dockerfile addFrom(String from) {  
-		return content + "FROM " + from + "\n";  
+		return new Dockerfile(content + "FROM " + from + "\n");  
 	}  
-	public static  String addCommand(String content, String command) {  
-		return content + "CMD " + command + "\n";  
+	public Dockerfile addCommand(String command) {  
+		return new Dockerfile(content + "CMD " + command + "\n");  
 	}  
-	public static String render(String content) {  
+	public Dockerfile render(String content) {  
 		return content;  
 	}
 }
