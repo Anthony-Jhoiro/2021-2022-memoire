@@ -1,5 +1,7 @@
 
 ### [Code de qualité, comment bien coder ?](https://alexsoyes.com/code-de-qualite)
+
+Hello World !
 ![[Cours/M1/S2/Mémoire/Bibliographie/It's probably time to stop recommending Clean Code]]
 dernière modification le : 19/09/2021
 
