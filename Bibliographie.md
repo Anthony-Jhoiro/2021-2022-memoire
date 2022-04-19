@@ -8,4 +8,3 @@ dernière modification le : 19/09/2021
 ![[Bibliographie/Clean Architecture Martin]]
 [Résumé ici](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29) 
 Écrit en 2016 (à vérifier)
-
