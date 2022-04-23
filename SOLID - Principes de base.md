@@ -12,13 +12,11 @@ Prenons un composant qui manipule les utilisateurs d'une application. Ce composa
 
 Ce principe impose q'un ajout de fonctionnalité ne doit pas modifier le code existant d'un projet mais doit uniquement en ajouter. Ainsi, on réduit au minimum le risque de changer le comportement d'une entité qui utiliserait le code que l'on modifie. 
 
-En programmation orienté objet, ce principe renvoie directement au polymorphisme de l'objet. ( #todo Better explanation for oop). 
+#TODO Better explanation for OCP for OOP
+En programmation orienté objet, ce principe renvoie directement au polymorphisme de l'objet. 
 
-En programmation fonctionnelle, ce principe peut aussi s'appliquer simplement 
+En programmation fonctionnelle, ce principe peut aussi s'appliquer en utilisant la composition de fonction et les "high-order functions" (fonction pouvant prenant une fonction comme paramètre et / ou retournant une fonction).
 
-
-Ce principe définit que quand du nouveau code est écrit, l'ancien code ne doit pas être modifié.
-=> Séparer les éléments du code qui changent pour différentes raisons (SRP)
 
 
 ### LSP : Liskov Substitution Principle
