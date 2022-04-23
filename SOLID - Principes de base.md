@@ -4,12 +4,13 @@
 
 Le principe de responsabilité unique impose qu'une entité (une fonction, une classe, un composant, un package...) n'ait qu'une seule responsabilité ce qui signifie qu'il ne doit y a voir qu'une seule raison pour laquelle cette entité serait modifiée. 
 
-Prenons un composant qui manipulerait les utilisateurs d'une application.
+Prenons un composant qui manipule les utilisateurs d'une application. Ce composant ne doit être modifié que si la stratégie de gestion des utilisateurs est modifiée. 
 
-#TODO Single Responsibility Principle
 ### OCP : Open-Closed Principle
 > A software artifact should be open for extension but closed for modification.
 *Bertrand Meyer. __Object Oriented Software Construction__, Prentice Hall, 1988, p.23*
+
+Ce principe impose q'un ajout de fonctionnalité ne doit pas modifier le code existant d'un projet 
 
 Ce principe définit que quand du nouveau code est écrit, l'ancien code ne doit pas être modifié.
 => Séparer les éléments du code qui changent pour différentes raisons (SRP)
