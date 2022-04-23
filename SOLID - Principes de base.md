@@ -22,9 +22,11 @@ En programmation fonctionnelle, ce principe peut aussi s'appliquer en utilisant 
 ### LSP : Liskov Substitution Principle
 #TODO Liskov Substitution Principle
 ### ISP : Interface Segregation Principle
-Ce principe énonce qu'il est préférable d'utiliser plusieurs petites interfaces plutôt qu'une grande. Ces petites interfaces sont dites "client-specific" ce qui signifie qu'elles ne sont faites que   composant implémentant  les interfaces d'un projet soient "client-specific" ce qui signifie qu'un composant ne doit pas proposer 
+Ce principe énonce qu'il est préférable d'utiliser plusieurs petites interfaces plutôt qu'une grande. Ces petites interfaces sont dites "client-specific" ce qui signifie qu'elles ne sont faites que pour un seul client. Ce qui implique en toute logique que le client définit les interfaces dont il a besoin. 
 
+En programmation orienté objet, il est courant de pouvoir implémenter plusieurs interface dans une  même classe. Cependant le concept d'interface n'est pas propre à la programmation orienté objet et ce concept existe très bien en programmation fonctionnelle ou en programmation procédurale. 
 
-#TODO Interface Segregation Principle
 ### DIP : Dependency Inversion Principle
+Le principe d'inversion de dépendance est 
+
 #TODO Dependency Inversion Principle
