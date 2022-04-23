@@ -10,7 +10,12 @@ Prenons un composant qui manipule les utilisateurs d'une application. Ce composa
 > A software artifact should be open for extension but closed for modification.
 *Bertrand Meyer. __Object Oriented Software Construction__, Prentice Hall, 1988, p.23*
 
-Ce principe impose q'un ajout de fonctionnalité ne doit pas modifier le code existant d'un projet 
+Ce principe impose q'un ajout de fonctionnalité ne doit pas modifier le code existant d'un projet mais doit uniquement en ajouter. Ainsi, on réduit au minimum le risque de changer le comportement d'une entité qui utiliserait le code que l'on modifie. 
+
+En programmation orienté objet, ce principe renvoie directement au polymorphisme de l'objet. ( #todo Better explanation for oop). 
+
+En programmation fonctionnelle, ce principe peut aussi s'appliquer simplement 
+
 
 Ce principe définit que quand du nouveau code est écrit, l'ancien code ne doit pas être modifié.
 => Séparer les éléments du code qui changent pour différentes raisons (SRP)
