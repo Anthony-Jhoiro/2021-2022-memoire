@@ -1,6 +1,11 @@
 ## Principes de base
 
 ### SRP : Single Responsibility Principle
+
+Le principe de responsabilité unique impose qu'une entité (une fonction, une classe, un composant, un package...) n'ait qu'une seule responsabilité ce qui signifie qu'il ne doit y a voir qu'une seule raison pour laquelle cette entité serait modifiée. 
+
+Prenons un composant qui manipulerait les utilisateurs d'une application.
+
 #TODO Single Responsibility Principle
 ### OCP : Open-Closed Principle
 > A software artifact should be open for extension but closed for modification.
