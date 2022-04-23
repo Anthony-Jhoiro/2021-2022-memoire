@@ -9,5 +9,7 @@ dernière modification le : 19/09/2021
 [Résumé ici](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29) 
 Écrit en 2016 (à vérifier)
 
+![[Cours/M1/S2/Mémoire/Bibliographie/Explicit interface per class antipattern]]
+
 
 https://dev.to/patferraggi/do-the-solid-principles-apply-to-functional-programming-56lm

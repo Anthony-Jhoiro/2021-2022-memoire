@@ -10,4 +10,5 @@ Bien que se basant sur le framework Java EE, cet article s'applique à n'importe
 
 Pour reprendre le schéma utilisé pour parler du DIP, on constate que l'inversion n'est pas faite et que l'interface n'a pas d'utilité.
 
-=> L'auteur n'exlu pas l'utilisation des interfaces maos 
+=> L'auteur n'exlu pas l'utilisation des interfaces mais donne des bonnes pratiques pour comprendre les 
+#TODO Reprendre ici
