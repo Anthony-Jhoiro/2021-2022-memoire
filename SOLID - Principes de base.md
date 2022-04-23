@@ -27,6 +27,6 @@ Ce principe énonce qu'il est préférable d'utiliser plusieurs petites interfac
 En programmation orienté objet, il est courant de pouvoir implémenter plusieurs interface dans une  même classe. Cependant le concept d'interface n'est pas propre à la programmation orienté objet et ce concept existe très bien en programmation fonctionnelle ou en programmation procédurale. 
 
 ### DIP : Dependency Inversion Principle
-Le principe d'inversion de dépendance est 
+Le principe d'inversion de dépendance dit qu'une entité ne doit jamais dépendre directement d'une autre mais doit toujours passer par une forme d'abstraction.  
 
 #TODO Dependency Inversion Principle
