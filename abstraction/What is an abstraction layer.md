@@ -12,7 +12,7 @@ Dans notre exemple, il n'y a que deux composants donc le changement sera rapide 
 
 ![[Cours/M1/S2/Mémoire/abstraction/abstraction-example1-solution.excalidraw]]
 
-Dans la figure ci-dessus, nous avons ajouté l'interface "UserStorage" à notre model. Cette interface est un "contrat" entre nos deux composants. "UserManager" *annonce* qu'elle a besoin d'un composant qui **implémente** cette "UserStorage" et c'est ce que fait "UserPostgresStorage" en utilisant des méthodes en 
+Dans la figure ci-dessus, nous avons ajouté l'interface "UserStorage" à notre model. Cette interface est un "contrat" entre nos deux composants. "UserManager" *annonce* qu'elle a besoin d'un composant qui **implémente** cette "UserStorage" et c'est ce que fait "UserPostgresStorage" en implémentant les méthodes définies dans "UserStorage".
 
 
 Le niveau d’abstraction est présent ç différentes échelles en informatique. Bien sûr, on le retrouve dans les architectures de code mais auŝsi dans les architectures comportant plusirus applications ou les architectures réseaux. En effet,nous pouvons 
