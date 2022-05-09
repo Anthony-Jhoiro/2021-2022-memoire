@@ -14,9 +14,4 @@ Dans notre exemple, il n'y a que deux composants donc le changement sera rapide 
 
 Dans la figure ci-dessus, nous avons ajouté l'interface "UserStorage" à notre model. Cette interface est un "contrat" entre nos deux composants. "UserManager" *annonce* qu'elle a besoin d'un composant qui **implémente** cette "UserStorage" et c'est ce que fait "UserPostgresStorage" en implémentant les méthodes définies dans "UserStorage". Maintenant si nous changeons le mode de stockage de nos utilisateurs, nous pouvons simplement créer un nouveau composant qui implémentera l'interface et le composant "UserManager" n'aura pas besoin de savoir comment les utilisateurs sont stockés.
 
-La notion d'interface et d'abstraction est souvent présentée comme une notion phare de la programmation orienté objet cependant elle n'y est pas restreinte. Si on prend des langages comme le C, 
-
-
-
-
-Le niveau d’abstraction est présent ç différentes échelles en informatique. Bien sûr, on le retrouve dans les architectures de code mais auŝsi dans les architectures comportant plusirus applications ou les architectures réseaux. En effet,nous pouvons 
+La notion d'interface et d'abstraction est souvent présentée comme une notion phare de la programmation orienté objet cependant elle n'y est pas restreinte. Si on prend un langage comme le C, les fichiers headers (avec l'extension .h) peuvent tout à fait ajouter une couche d'abstraction. Conventionnellement ces fichiers ne contiennent que les déclarations des fonctions et non leur définition. Quand un de ces fichiers est importé, il n'est pas nécessaire de savoir comment ces fonctions sont implémentées. C'est alors le rôle du compilateur de dire quel fichier implémentera les fonction du header et quelles implémentations seront donc utilisées.
