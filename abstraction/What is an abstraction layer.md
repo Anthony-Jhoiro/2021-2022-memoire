@@ -6,7 +6,9 @@ Prenons un composant d'une application s'occupant de la gestion des utilisateurs
 
 ![[Cours/M1/S2/Mémoire/abstraction/abstraction-example1.excalidraw]]
 
-Ici, le composant UserManager a besoin du composant UserPostgresStorage afin de stocker et récupérer les informations de l'utilisateur. Le problème de cette approche est qu'en cas de modification du mode stockage, dû par exemple à un changement de base de donnée ou d'externalisation des données, le composant UserPostgresStorage ne sera 
+Ici, le composant UserManager a besoin du composant UserPostgresStorage afin de stocker et récupérer les informations de l'utilisateur. Le problème de cette approche est qu'en cas de modification du mode stockage, dû par exemple à un changement de base de donnée ou d'externalisation des données, le composant UserPostgresStorage ne sera peut être plus utilisé. Dans ce cas le "UserManager" devra lui aussi changer pour s'adapter au nouveau mode de stockage. 
+
+Dans notre exemple, il n'y a que deux composants donc le changement sera rapide mais que se passe t'il quand nous en avons 10, 100 ou 500 ? Et bien ce genre de modification risque d'avoir un énorme impacte ! Afin d'éviter ce problème, nous pouvons placer une interface entre nos deux composants. 
 
 
 Le niveau d’abstraction est présent ç différentes échelles en informatique. Bien sûr, on le retrouve dans les architectures de code mais auŝsi dans les architectures comportant plusirus applications ou les architectures réseaux. En effet,nous pouvons 
