@@ -1,3 +1,11 @@
+Intro
+Notions :
+- entité
+- paradigme
+- composant
+
+
+Synthèse
 
 I. Niveau d'abstraction
 [[Cours/M1/S2/Mémoire/abstraction/What is an abstraction layer]]
