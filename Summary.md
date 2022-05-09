@@ -13,7 +13,7 @@ I. Niveau d'abstraction
 - ...
 
 II. SOLID
-- Principes de base
+[[Cours/M1/S2/Mémoire/solid/principes de base]]
 - Problématiques engendrées
 	- Problème de création des composants
 - Le problème de l'interface explicite
