@@ -38,7 +38,11 @@ func  main() {
 
 ```
 
-Dans cet exemple, la fonction "addFive"
+#TODO Vérifier que l'article est bien
+
+Dans cet exemple, la fonction "addFive" ne présente aucun effet de bord car les seules éléments utilisés sont dans son scope directe. Nous pouvons alors parler de fonction pure comme définit dans cette article [https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976) . 
+
+
 
 ### Applications dans les classes (POO)
 La question des effets de bord se pose dan l'utilisation de la programmation orientée objet. 
