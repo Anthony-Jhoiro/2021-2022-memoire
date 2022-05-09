@@ -4,6 +4,8 @@
 Même si tous ces composants sont développés de façon isolés et respectent tous les concepts SOLID, un composant central devra quand même connaitre les autres afin de les initialiser. Ce composant est usuellement appelé `Main`, il a pour charge de créer, coordonner et oversees les autres (définition par Martin (Clean Architecture p232)).
 
 ### Concept de Martin
+
+D'après 
 => Tous les composants doivent être injectés dans Main puis Main a pour charge de les redistribuer sans framework
 => Main est le composant le plus "crade" car il doit connaitre l’existence de tous les autres composants utilisés dan l'application et ne peut donc pas respecter les principes SOLID.
 

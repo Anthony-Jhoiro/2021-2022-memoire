@@ -21,6 +21,8 @@ En programmation fonctionnelle, ce principe peut aussi s'appliquer en utilisant 
 
 ### LSP : Liskov Substitution Principle
 #TODO Liskov Substitution Principle
+
+
 ### ISP : Interface Segregation Principle
 Ce principe énonce qu'il est préférable d'utiliser plusieurs petites interfaces plutôt qu'une grande. Ces petites interfaces sont dites "client-specific" ce qui signifie qu'elles ne sont faites que pour un seul client. Ce qui implique en toute logique que le client définit les interfaces dont il a besoin. 
 
