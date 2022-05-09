@@ -13,3 +13,5 @@ dernière modification le : 19/09/2021
 
 
 https://dev.to/patferraggi/do-the-solid-principles-apply-to-functional-programming-56lm
+
+https://refactoring.guru/refactoring/what-is-refactoring
