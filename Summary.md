@@ -21,7 +21,7 @@ II. SOLID
 
 III. Les effets de bords
 - [ ] [[Cours/M1/S2/Mémoire/side-effects/side effect definition]]
-- [ ] Les effets de bords dans la programmation orienté objet
+- [ ] [[Cours/M1/S2/Mémoire/side-effects/side-efects-oop]]
 - [ ] [[Cours/M1/S2/Mémoire/side-effects/solution immutabilité]]
 
 IV. Un code de bonne qualité

@@ -1,0 +1,1 @@
+Les effets de bords dans la programmation orienté objet
