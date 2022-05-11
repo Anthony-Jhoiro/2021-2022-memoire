@@ -1,3 +1,4 @@
 # Introduction
 
-Depuis les débuts de l'informatique modernes, les évolutions en terme de technologies et de bonnes pratiques n'ont cessé de s'accélérer de façon exponentielles. Dans ce contexte en constante évolution, il est en parallrapidement venu important qu
+Depuis les débuts de l'informatique modernes, les évolutions en terme de technologies et de bonnes pratiques n'ont cessé de s'accélérer de façon exponentielles. Dans ce contexte en constante évolution, il est en parallèle devenu important que les application gagne en fonctionnalités. Le problème arrivé rapidement est que l'ajout des fonctionnalité d'une application est souvent complexe car une nouvelle fonctionnalité peut changer (directement ou indirectement) le comportement des autres créant ainsi des applications de plus en plus complexes à étendre et la plus simple des fonctionnalité qui aurait pu prendre quelques heures en début de projet fini par prendre plusieurs semaines à développer dans une application avec un plus fort historique. 
+Voyez ici la construction d'application comme une tour, on vous demande de construire une tour dont la construction ne sera jamais terminée
