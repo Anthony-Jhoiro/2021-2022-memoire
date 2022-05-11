@@ -10,4 +10,6 @@ Nous dénombrons aujourd'hui trois paradigmes de développement.
 
 Premièrement la programmation procédurale, comme décrite dans cet article https://www.techno-science.net/definition/11446.html est un paradigme de développement contré sur l'utilisatuion des procédures. Une procédure est une suite d'instruction ordonnée,"incluant d'autres procédures, voire la procédure elle-même" (https://www.techno-science.net/definition/11446.html ), nous parlons alors de récursivité.
 
-Ensuite nous avons la programmation orienté objet souvent abrégée en OOP (Object-Oriented Programming) qui place l'objet au centre. Un objet est 
+Ensuite nous avons la programmation orienté objet souvent abrégée en OOP (Object-Oriented Programming) qui place l'objet au centre. Un objet est une brique logique représentant "un concept, une idée ou toute entité du monde physique, comme une voiture, une personne ou encore une page d'un livre." (https://www.techno-science.net/definition/5393.html).
+
+Enfin il existe le paradigme de programmation fonctionnelle dans lequel l'élément central est la conftipon
