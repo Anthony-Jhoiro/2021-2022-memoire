@@ -61,3 +61,4 @@ Il ajoute ensuite une citation de <ins>Robert C. Martin</ins>
 > Side effects are lies. Your function promises to do one thing, but it also does other hidden things. **Sometimes it will make unexpected changes to the variables of its own class.** Sometimes it will make them to the parameters passed into the function or to system globals. In either case they are devious and damaging mistruths that often result in strange temporal couplings and order dependencies.
 
 Il existe donc une dualité concernant les attributs privés d'un objet. D'un côté certains considèrent qu'ils peuvent être modifiés et d'autres au contraire considèrent qu'ils doivent être constant et que toute modification devrait entraîner une modification de l'objet
+#todo conclude on side effects in oop

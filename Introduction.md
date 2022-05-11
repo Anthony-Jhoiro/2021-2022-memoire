@@ -11,6 +11,9 @@ Avant de nous intéresser à comment rendre notre code plus adaptable aux modifi
 ## Langage de programmation
 Un langage de programmation est un ensemble de règles et de symboles permettant de formuler des algorithm et de produire des programmes (https://www.linternaute.fr/dictionnaire/fr/definition/langage-de-programmation). Dans la fin des années 1940 furent créés les langages assembleurs permettant aux développeurs de ne plus devoir transcrire leur code en binaire. Puis furent créé d'autres langages de plus en plus simple d'utilisation comme le A0 puis le Fortran, le COBOL, le C... Jus'qu'à aujourd'hui avec des langages créés il n'y a même pas dix ans comme le Go ou le Rust (Clean Architecture de Robert C. Martin, introduction de la deuxième partie).
 
+## Entité
+La notion d’entité représente tout élément manipulable. Une une entité peut être une variable, une fonction, une classe, un groupement de classe (package ou composants par exemple) voire même des applications (dans le cas d’une architecture microservice par exemple). 
+
 ## Framework
 > La notion de Framework n'est pas approfondie dans ce mémoire de recherche mais elle peut aider à comprendre certains passages.
 
