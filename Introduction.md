@@ -6,12 +6,20 @@ Voyez ici la construction d'application comme une tour dont la construction ne s
 
 Avant de nous intéresser à comment rendre notre code plus adaptable aux modifications, il est important de préciser la nature de notre code.
 
+## Paradigme de programmation
+
 Nous dénombrons aujourd'hui trois paradigmes de développement. 
 
-Premièrement la **programmation procédurale**, comme décrite dans cet article https://www.techno-science.net/definition/11446.html est un paradigme de développement contré sur l'utilisatuion des procédures. Une procédure est une suite d'instruction ordonnée,"incluant d'autres procédures, voire la procédure elle-même" (https://www.techno-science.net/definition/11446.html ), nous parlons alors de récursivité. Nous retrouvons ce paradigme dans des langages comme le C ou le Go.
+### Programmation procédurale
+
+Premièrement la **programmation procédurale**, comme décrite dans cet article https://www.techno-science.net/definition/11446.html est un paradigme de développement contré sur l’utilisation des procédures. Une procédure est une suite d'instruction ordonnée,"incluant d'autres procédures, voire la procédure elle-même" (https://www.techno-science.net/definition/11446.html ), nous parlons alors de récursivité. Nous retrouvons ce paradigme dans des langages comme le C ou le Go.
+
+### Programmation orientée objet
 
 Ensuite nous avons la **programmation orienté objet** souvent abrégée en OOP (Object-Oriented Programming) qui place l'objet au centre. Un objet est une brique logique représentant "un concept, une idée ou toute entité du monde physique, comme une voiture, une personne ou encore une page d'un livre." (https://www.techno-science.net/definition/5393.html). Nous retrouvons ce paradigme entre autre en Java ou en Dart.
 
-Enfin il existe le paradigme de **programmation fonctionnelle**, décrit entre autre dans cet article https://www.techno-science.net/glossaire-definition/Programmation-fonctionnelle.html, dans lequel l'élément central est la fonction qui ici reprend la logique d'une des fonctions mathématique . Il impose le principe d'immutabilité et rejette les changements d'état. La programmation fonctionnelle a été imaginé avant même le début de la programmation elle même et est fortement basée par le lambda-calcul inventé par Alonzo Church 
+### Programmation fonctionelle
 
-Clojure, Haskell
+Enfin il existe le paradigme de **programmation fonctionnelle**, décrit entre autre dans cet article https://www.techno-science.net/glossaire-definition/Programmation-fonctionnelle.html, dans lequel l'élément central est la fonction qui ici reprend la logique d'une des fonctions mathématique . Il impose le principe d'immutabilité et rejette les changements d'état. La programmation fonctionnelle a été imaginé avant même le début de la programmation elle même et est fortement basée par le lambda-calcul inventé par Alonzo Church dans les années 1930 comme décrit par Robert C. Martin dans le chapitre 6 de Clean Architecture. Nous retrouvons ce paradigme dans des langages comme Clojure ou Haskell.
+
+
