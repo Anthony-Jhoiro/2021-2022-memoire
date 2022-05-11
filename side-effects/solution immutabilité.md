@@ -5,7 +5,11 @@ articles:
 
 ## Une solution pour éviter les effets de bord : l'immutabilité
 
-Le principe d'immutabilité définit que toutes les entités (variables, fonctions, ...) doivent se comporter de façon immutable. Ce qui veut dire que pour modifier ces entités, il faut en faire une copie. Ce principe est très utilisé dans la programmation fonctionnelle et est simple à utiliser dans un concept de programmation procédural cependant, son approche peut paraître déroutante en programmation orienté objet. 
+Le principe d'immutabilité définit que toutes les entités (variables, fonctions, ...) doivent se comporter de façon immutable. Ce qui veut dire que pour modifier ces entités, il faut en faire une copie. 
+
+Comme expliqué dans l'article
+
+L'immutabilité est très utilisé dans la programmation fonctionnelle et est simple à utiliser dans un concept de programmation procédural cependant, son approche peut paraître déroutante en programmation orienté objet. 
 
 Prenons le type `String` en Java. 
 
@@ -20,16 +24,15 @@ Est ce que le tableau a changé de taille ? Non. Un nouveau tableau a été cré
 
 ```java
 public class Main {  
-  
- public static void change(String sentence) {  
- sentence.toUpperCase();  
- }  
- public static void main(String[] args) {  
- String a = "hello";  
- change(a);  
-  
- System.out.println(a);  // Log : hello
- }}
+    public static void change(String sentence) {  
+        sentence.toUpperCase();  
+	}  
+	public static void main(String[] args) {  
+	    String a = "hello";  
+	    change(a);  
+	    System.out.println(a);  // Output : hello
+	}
+}
 ```
 
 Ici le programme n'affiche que "hello" et non pas "HELLO" car une nouvelle chaîne de caractère a bien été crée dans la fonction `change`.
@@ -70,3 +73,4 @@ class Dockerfile {
 	}
 }
 ```
+
