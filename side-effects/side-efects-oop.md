@@ -59,3 +59,5 @@ Dans [[It's probably time to stop recommending Clean Code]], l'auteur écrit en 
 Il ajoute ensuite une citation de <ins>Robert C. Martin</ins> 
 
 > Side effects are lies. Your function promises to do one thing, but it also does other hidden things. **Sometimes it will make unexpected changes to the variables of its own class.** Sometimes it will make them to the parameters passed into the function or to system globals. In either case they are devious and damaging mistruths that often result in strange temporal couplings and order dependencies.
+
+Il existe donc une dualité concernant les attributs privés d'un objet. Certa
