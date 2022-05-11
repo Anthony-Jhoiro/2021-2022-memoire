@@ -12,10 +12,11 @@ Comme expliqué dans l'article "The State of Immutability de Maciej Sikora", l'i
 > Code is operating on values not on pointers in the memory. Anything representing different value should be separated structure. The value remains unchanged from its creation until its destruction.
 > *https://medium.com/dailyjs/the-state-of-immutability-169d2cd11310*
 
-Cette méthodologie permet l'immutabilité car si une modification est apportée sur une valeur, son emplacement en mémoire changera. m!ù
-
+Cette méthodologie permet l'immutabilité car si une modification est apportée sur une valeur, son emplacement en mémoire changera et donc si cette même valeur est utilisée à un autre endroit, elle ne sera pas affectée par les modifications.
 
 L'immutabilité est très utilisé dans la programmation fonctionnelle et est simple à utiliser dans un concept de programmation procédural cependant, son approche peut paraître déroutante en programmation orienté objet. 
+
+#TODO est ce que l'on garde les exemples ?
 
 Prenons le type `String` en Java. 
 
