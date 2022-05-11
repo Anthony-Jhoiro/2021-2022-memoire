@@ -1,4 +1,4 @@
-Intro
+[[Cours/M1/S2/Mémoire/Introduction]]
 Notions :
 - entité
 - paradigme
