@@ -7,7 +7,13 @@ articles:
 
 Le principe d'immutabilité définit que toutes les entités (variables, fonctions, ...) doivent se comporter de façon immutable. Ce qui veut dire que pour modifier ces entités, il faut en faire une copie. 
 
-Comme expliqué dans l'article "The State of Immutability de Maciej Sikora", l'immutabilité permet de supprimer les effets de bords dues aux mutations des valeurs ou des structures de données. Il est présenté deux approches divergentes, PLOP (PLace Oriented Programming) et VOP (Value Oriented Programming). PLOP propose qu'une entité est un poiteur vers un endroit en mémoire, 
+Comme expliqué dans l'article "The State of Immutability de Maciej Sikora", l'immutabilité permet de supprimer les effets de bords dues aux mutations des valeurs ou des structures de données. Il est présenté deux approches divergentes, PLOP (PLace Oriented Programming) et VOP (Value Oriented Programming). PLOP propose qu'une entité est un pointeur vers un endroit en mémoire, si cette entité subie des mutations, son emplacement en mémoire ne changera pas, cette entité est donc très sensible aux mutations et donc aux effets de bord. De l'autre côté VOP propose qu'une entité soit représenté non pas par un pointeur mais par sa valeur directement.
+
+> Code is operating on values not on pointers in the memory. Anything representing different value should be separated structure. The value remains unchanged from its creation until its destruction.
+> *https://medium.com/dailyjs/the-state-of-immutability-169d2cd11310*
+
+Cette méthodologie impose l'immutabilité et donc 
+
 
 L'immutabilité est très utilisé dans la programmation fonctionnelle et est simple à utiliser dans un concept de programmation procédural cependant, son approche peut paraître déroutante en programmation orienté objet. 
 
