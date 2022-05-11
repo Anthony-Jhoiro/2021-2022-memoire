@@ -7,7 +7,10 @@ Voyez ici la construction d'application comme une tour dont la construction ne s
 Avant de nous intéresser à comment rendre notre code plus adaptable aux modifications, il est important de préciser la nature de notre code.
 
 ## Langage de programmation
-Un langage de programmation est un ensemble de règles et de symboles permettant de formuler des algorithm et de produire des programmes (https://www.linternaute.fr/dictionnaire/fr/definition/langage-de-programmation). Dans la fin des années 1940 furent créés les langages assembleurs permettant aux développeurs de ne plus devoir transcrire leur code en binaire. 
+Un langage de programmation est un ensemble de règles et de symboles permettant de formuler des algorithm et de produire des programmes (https://www.linternaute.fr/dictionnaire/fr/definition/langage-de-programmation). Dans la fin des années 1940 furent créés les langages assembleurs permettant aux développeurs de ne plus devoir transcrire leur code en binaire. Puis furent créé d'autres langages de plus en plus simple d'utilisation comme le A0 puis le Fortran, le COBOL, le C... Jus'qu'à aujourd'hui avec des langages créés il n'y a même pas dix ans comme le Go ou le Rust (Clean Architecture de Robert C. Martin, introduction de la deuxième partie).
+
+## Framework
+Des millions de programmes 
 
 ## Paradigme de programmation
 Nous comptons aujourd'hui plusieurs méthodes de programmation principales que l'on appelle paradigme. Ces paradigmes sont utilisés par des langages ou frameworks et permettent de garder une cohérence dans la logique d'un langage à un autre. Certain langages sont dit multi-paradigm, ce qui signifie que l'on peut les utiliser avec un ou plusieurs paradigmes comme le Javascript ou le Python. Nous dénombrons aujourd'hui trois paradigmes de développement. 
