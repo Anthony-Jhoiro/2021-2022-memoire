@@ -2,7 +2,7 @@
 
 #TODO Détailler l'historique de SOLID
 ## Principes de base
-                                                                                                                                                                      
+
 ![[SOLID - Principes de base]]
 
 ## Résumé
